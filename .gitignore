@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Generated artifacts (rebuilt by running the pipeline — don't need to be in git)
+data/faiss_index.bin
+data/corpus.json
+
+# Environment
+.env
+venv/
+env/
+
+# OS
+.DS_Store

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "pen001",
+    "category": "Pensions",
+    "title": "What is a defined contribution pension?",
+    "content": "A defined contribution pension is a pot of money built up over your working life from your own contributions, your employer's contributions, and tax relief from the government. The final value depends on how much was paid in, how the underlying investments performed, and any charges deducted along the way. Unlike a defined benefit pension, there is no guaranteed income at retirement; the amount you eventually receive depends on investment performance and the choices you make about how to draw the money."
+  },
+  {
+    "id": "pen002",
+    "category": "Pensions",
+    "title": "What is a defined benefit pension?",
+    "content": "A defined benefit pension, often called a final salary or career average scheme, promises a specific retirement income based on your salary and years of service, rather than on investment performance. These schemes are common in the public sector, including education, the NHS, and the armed forces. The employer (or scheme) bears the investment risk, not the member."
+  },
+  {
+    "id": "pen003",
+    "category": "Pensions",
+    "title": "When can I normally access my pension?",
+    "content": "Most private pensions have a normal pension age, commonly 60 or 65, though this is rising in line with changes to the State Pension age. Currently, most people cannot access defined contribution pension savings before age 55, and this minimum access age is scheduled to rise to 57 from 2028. Accessing pension savings earlier than the scheme allows can trigger large tax penalties, except in specific circumstances such as serious ill health."
+  },
+  {
+    "id": "pen004",
+    "category": "Pensions",
+    "title": "What are my options when taking a defined contribution pension?",
+    "content": "There are several ways to take money from a defined contribution pension pot: taking the whole pot as a single lump sum, taking a guaranteed income for life through an annuity, moving into flexible drawdown that stays invested while you take income as needed, or taking a series of smaller lump sums over time. Many people combine more than one option, and if there are multiple pension pots, different options can be used for each. Generally the first 25 percent of the pot can be taken tax-free, with the remainder taxed as income."
+  },
+  {
+    "id": "pen005",
+    "category": "Pensions",
+    "title": "What is pension tax relief?",
+    "content": "Pension tax relief means the government effectively adds money to your pension contributions to reflect the fact that pension savings are treated as pre-tax income. A basic-rate taxpayer contributing to a pension gets tax relief automatically added, so a net contribution is topped up by the provider. Higher and additional-rate taxpayers may need to claim further relief through a tax return. There is an annual allowance limiting how much can be contributed each year while still benefiting from full tax relief."
+  },
+  {
+    "id": "pen006",
+    "category": "Pensions",
+    "title": "What is Pension Wise?",
+    "content": "Pension Wise is a free, impartial guidance service backed by the UK government, available to people aged 50 or over with a defined contribution pension. It provides a guidance appointment, delivered online, by phone, or face to face, explaining the options for taking pension money. It is guidance rather than regulated financial advice, meaning it explains options but does not recommend a specific course of action for an individual's circumstances."
+  },
+  {
+    "id": "pen007",
+    "category": "Pensions",
+    "title": "Should I combine multiple pension pots?",
+    "content": "Combining pensions into one pot can make them easier to manage and may reduce overall charges, but it is not automatically the right choice for everyone. Some older pensions include valuable guarantees, such as guaranteed annuity rates, which would be lost if transferred. Transferring out of a defined benefit pension is rarely in a member's interest and, for transfers above a certain value, regulated financial advice is legally required before the transfer can proceed."
+  },
+  {
+    "id": "sav001",
+    "category": "Savings",
+    "title": "What is an ISA?",
+    "content": "An Individual Savings Account (ISA) is a tax-efficient wrapper for savings or investments, meaning any interest, dividends, or capital gains earned inside it are free of UK tax. Each tax year there is an overall ISA allowance that can be split across different types of ISA, including cash ISAs, stocks and shares ISAs, and Lifetime ISAs, subject to the rules for each type."
+  },
+  {
+    "id": "sav002",
+    "category": "Savings",
+    "title": "What is a Lifetime ISA?",
+    "content": "A Lifetime ISA (LISA) is designed to help people aged 18 to 39 save either for a first home or for retirement. Savers can contribute up to a set annual limit, and the government adds a 25 percent bonus on top of contributions. Withdrawals for anything other than a first home purchase or after age 60 usually incur a government withdrawal charge, which can mean getting back less than was originally paid in."
+  },
+  {
+    "id": "sav003",
+    "category": "Savings",
+    "title": "How much should I keep in an emergency fund?",
+    "content": "A common guideline is to hold enough in an easily accessible savings account to cover three to six months of essential living costs, though the right amount depends on individual circumstances such as job security and dependants. An emergency fund is intended to cover unexpected costs, such as urgent repairs or a period without income, without needing to rely on high-interest borrowing."
+  },
+  {
+    "id": "deb001",
+    "category": "Debt",
+    "title": "What should I do if I am struggling with debt repayments?",
+    "content": "The first step is usually to list all debts, priority and non-priority, and contact lenders early to discuss options, since many will offer temporary payment arrangements. Free, impartial debt advice is available from government-backed and charity services, which can help assess options such as debt management plans, individual voluntary arrangements, or, in some cases, insolvency. Priority debts, such as rent, mortgage, council tax, and energy bills, generally carry more serious consequences if unpaid and should usually be addressed first over non-priority debts such as credit cards."
+  },
+  {
+    "id": "deb002",
+    "category": "Debt",
+    "title": "What is the difference between priority and non-priority debts?",
+    "content": "Priority debts are those where non-payment can lead to serious consequences such as losing your home, having utilities disconnected, or facing legal action, and include mortgage or rent arrears, council tax, energy bills, and court fines. Non-priority debts, such as credit cards, personal loans, and overdrafts, typically carry less severe immediate consequences, though they still affect credit records and can lead to collections activity if ignored."
+  },
+  {
+    "id": "mor001",
+    "category": "Mortgages",
+    "title": "What is the difference between a fixed-rate and variable-rate mortgage?",
+    "content": "A fixed-rate mortgage keeps the interest rate, and therefore the monthly repayment, the same for an agreed period, typically two, three, or five years, offering predictability. A variable-rate mortgage, including tracker and standard variable rate deals, can move up or down, often in line with the Bank of England base rate, meaning payments can rise or fall over time."
+  },
+  {
+    "id": "mor002",
+    "category": "Mortgages",
+    "title": "What happens at the end of a mortgage deal?",
+    "content": "When a fixed or discounted mortgage deal ends, borrowers are usually moved onto their lender's standard variable rate unless they arrange a new deal, which is often more expensive. It is generally worth reviewing options several months before the current deal ends, either remortgaging with a new lender or agreeing a new product transfer with the existing one, to avoid an automatic move to a higher rate."
+  },
+  {
+    "id": "bud001",
+    "category": "Budgeting",
+    "title": "How do I build a household budget?",
+    "content": "A basic household budget starts by listing all sources of income, then all essential outgoings such as housing, utilities, food, and debt repayments, followed by discretionary spending. Comparing total income against total outgoings shows whether there is a surplus or shortfall. Reviewing bank statements over a few months is a practical way to capture spending that is easy to underestimate, such as subscriptions or occasional purchases."
+  },
+  {
+    "id": "adv001",
+    "category": "Getting advice",
+    "title": "What is the difference between financial guidance and financial advice?",
+    "content": "Financial guidance provides general information and explains options without recommending a specific product or course of action for an individual, and is often free, including services such as Pension Wise and MoneyHelper. Regulated financial advice involves a qualified adviser assessing personal circumstances and recommending a specific product or action; it is regulated by the Financial Conduct Authority (FCA), usually carries a fee, and comes with certain consumer protections if the advice later proves unsuitable."
+  },
+  {
+    "id": "adv002",
+    "category": "Getting advice",
+    "title": "Why does it matter whether advice is regulated?",
+    "content": "Regulated financial advice in the UK is subject to FCA rules, including suitability requirements and access to the Financial Ombudsman Service and the Financial Services Compensation Scheme if something goes wrong. Guidance services, including general information sources and automated tools, are not a substitute for regulated advice when a decision is complex, high-value, or irreversible, such as transferring a defined benefit pension or deciding how to take retirement income."
+  },
+  {
+    "id": "cre001",
+    "category": "Credit",
+    "title": "What is a credit score and how is it used?",
+    "content": "A credit score is a number produced by credit reference agencies based on your financial history, including borrowing, repayment record, and how much available credit you use. Lenders use it, alongside other checks, to assess how risky it might be to lend to you. There is no single universal score; different agencies and lenders can calculate and weigh it differently, so the same person may see different scores from different sources."
+  },
+  {
+    "id": "cre002",
+    "category": "Credit",
+    "title": "How can I improve my credit score?",
+    "content": "Common ways to help a credit score over time include registering on the electoral roll, paying bills and credit commitments on time, keeping credit utilisation low relative to your limits, avoiding multiple credit applications in a short period, and checking your credit report regularly for errors. Building a track record of responsible borrowing and repayment tends to help more than any single quick action."
+  },
+  {
+    "id": "ins001",
+    "category": "Insurance",
+    "title": "What is the difference between life insurance and income protection insurance?",
+    "content": "Life insurance pays out a lump sum, or sometimes a regular income, to named beneficiaries if the policyholder dies within the policy term. Income protection insurance instead replaces a portion of income if the policyholder cannot work due to illness or injury, usually paying out until they return to work, reach retirement, or the policy ends. They cover different risks and are often held alongside each other rather than as substitutes."
+  },
+  {
+    "id": "inv001",
+    "category": "Investing",
+    "title": "What is diversification in investing?",
+    "content": "Diversification means spreading money across different types of assets, sectors, and geographic regions so that poor performance in one area is less likely to significantly harm the overall portfolio. It does not eliminate investment risk but can reduce the impact of any single investment performing badly. Multi-asset funds and diversified index funds are common ways smaller investors achieve diversification without picking individual stocks."
+  },
+  {
+    "id": "inv002",
+    "category": "Investing",
+    "title": "What is the difference between saving and investing?",
+    "content": "Saving generally means putting money into a low-risk account such as a savings account, where the value does not fluctuate but returns are usually modest and may not keep pace with inflation. Investing means putting money into assets such as shares, bonds, or funds, which can rise or fall in value, offering higher potential long-term growth alongside greater risk, including the possibility of losing money, especially over shorter time periods."
+  },
+  {
+    "id": "tax001",
+    "category": "Tax",
+    "title": "What is the Personal Allowance?",
+    "content": "The Personal Allowance is the amount of income someone can earn in a tax year before paying Income Tax. It applies UK-wide, though the specific tax bands above it differ slightly between Scotland and the rest of the UK. The allowance can be reduced for very high earners and is affected by certain other income and pension arrangements."
+  },
+  {
+    "id": "stu001",
+    "category": "Student finance",
+    "title": "How does student loan repayment work in the UK?",
+    "content": "UK student loan repayments are usually collected automatically through the tax system once income rises above a repayment threshold, which depends on which loan plan a borrower is on. Repayments are calculated as a percentage of income above the threshold, not as a fixed monthly amount, and any remaining balance is written off after a set number of years, again depending on the loan plan."
+  },
+  {
+    "id": "scam001",
+    "category": "Scams",
+    "title": "How can I recognise a pension or investment scam?",
+    "content": "Common warning signs of pension and investment scams include unsolicited contact offering guaranteed high returns, pressure to act quickly or keep the offer secret, unusual or unregulated investments, and requests to transfer a pension to release funds early outside the normal access rules. Checking whether a firm is authorised using the Financial Services Register, and being wary of any approach that discourages seeking independent guidance, are recommended precautions."
+  },
+  {
+    "id": "inf001",
+    "category": "Economy",
+    "title": "How does inflation affect savings?",
+    "content": "Inflation reduces the purchasing power of money over time, meaning that if savings earn interest below the rate of inflation, they are effectively losing real value even though the account balance grows in nominal terms. This is one reason some people choose to hold long-term money in investments rather than cash savings, since investments have greater potential to outpace inflation over time, albeit with more risk and volatility along the way."
+  },
+  {
+    "id": "bud002",
+    "category": "Budgeting",
+    "title": "What is the 50/30/20 budgeting rule?",
+    "content": "The 50/30/20 rule is a simple budgeting guideline suggesting that roughly 50 percent of after-tax income goes to needs such as housing, bills, and food, 30 percent to wants such as entertainment and eating out, and 20 percent to savings and debt repayment beyond minimum payments. It is a starting reference point rather than a strict rule, and the right split depends on individual circumstances such as location and income level."
+  }
+]
