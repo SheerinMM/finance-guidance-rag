@@ -1,14 +1,8 @@
+%%writefile src/generate.py
 """
 generate.py
 Builds a grounded prompt from the retrieved chunks and calls a pretrained LLM
 to produce the final answer, with citations back to source titles.
-
-Model choice: a small open-weight instruction-tuned model that runs on Colab's
-free-tier GPU, e.g. "Qwen/Qwen2.5-1.5B-Instruct" or "meta-llama/Llama-3.2-3B-Instruct".
-Qwen2.5-1.5B-Instruct is used as the default here because it is small enough to
-run reliably on free-tier hardware while still following instructions well —
-an important practical constraint to discuss in the technical report (cost/
-latency trade-off vs a frontier model like GPT-5.5 or a larger Llama 4 variant).
 """
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -26,7 +20,7 @@ SYSTEM_PROMPT = (
 )
 
 
-def build_prompt(query: str, retrieved_chunks: list[dict]) -> str:
+def build_prompt(query, retrieved_chunks):
     context = "\n\n".join(
         f"[Source: {c['title']}]\n{c['text']}" for c in retrieved_chunks
     )
@@ -39,7 +33,7 @@ def build_prompt(query: str, retrieved_chunks: list[dict]) -> str:
 
 
 class Generator:
-    def __init__(self, model_name: str = GENERATION_MODEL_NAME):
+    def __init__(self, model_name=GENERATION_MODEL_NAME):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
@@ -47,38 +41,36 @@ class Generator:
             device_map="auto" if torch.cuda.is_available() else None,
         )
 
-    def generate(self, query: str, retrieved_chunks: list[dict], max_new_tokens: int = 200) -> str:
+    def generate(self, query, retrieved_chunks, max_new_tokens=200):
         prompt = build_prompt(query, retrieved_chunks)
         messages = [{"role": "user", "content": prompt}]
-        inputs = self.tokenizer.apply_chat_template(
-            messages, add_generation_prompt=True, return_tensors="pt"
+
+        prompt_text = self.tokenizer.apply_chat_template(
+            messages, add_generation_prompt=True, tokenize=False
         )
+        encoded = self.tokenizer(prompt_text, return_tensors="pt")
+        input_ids = encoded["input_ids"]
+        attention_mask = encoded["attention_mask"]
+
         if torch.cuda.is_available():
-            inputs = inputs.to(self.model.device)
+            input_ids = input_ids.to(self.model.device)
+            attention_mask = attention_mask.to(self.model.device)
 
         outputs = self.model.generate(
-            inputs,
+            input_ids=input_ids,
+            attention_mask=attention_mask,
             max_new_tokens=max_new_tokens,
             temperature=0.3,
             do_sample=True,
             pad_token_id=self.tokenizer.eos_token_id,
         )
         response = self.tokenizer.decode(
-            outputs[0][inputs.shape[-1]:], skip_special_tokens=True
+            outputs[0][input_ids.shape[-1]:], skip_special_tokens=True
         )
         return response.strip()
 
 
-def format_answer_with_citations(answer: str, retrieved_chunks: list[dict]) -> str:
-    """Appends a citation footer listing the source titles used."""
+def format_answer_with_citations(answer, retrieved_chunks):
     sources = sorted(set(c["title"] for c in retrieved_chunks))
     citation_block = "\n\nSources:\n" + "\n".join(f"- {s}" for s in sources)
     return answer + citation_block
-
-
-if __name__ == "__main__":
-    # Quick prompt-construction sanity check (does not call the model).
-    dummy_chunks = [
-        {"title": "What is a Lifetime ISA?", "text": "A Lifetime ISA (LISA) is designed to help people aged 18 to 39..."}
-    ]
-    print(build_prompt("What is a Lifetime ISA?", dummy_chunks))
