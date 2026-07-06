@@ -1,4 +1,3 @@
-%%writefile src/generate.py
 """
 generate.py
 Builds a grounded prompt from the retrieved chunks and calls a pretrained LLM
@@ -44,18 +43,15 @@ class Generator:
     def generate(self, query, retrieved_chunks, max_new_tokens=200):
         prompt = build_prompt(query, retrieved_chunks)
         messages = [{"role": "user", "content": prompt}]
-
         prompt_text = self.tokenizer.apply_chat_template(
             messages, add_generation_prompt=True, tokenize=False
         )
         encoded = self.tokenizer(prompt_text, return_tensors="pt")
         input_ids = encoded["input_ids"]
         attention_mask = encoded["attention_mask"]
-
         if torch.cuda.is_available():
             input_ids = input_ids.to(self.model.device)
             attention_mask = attention_mask.to(self.model.device)
-
         outputs = self.model.generate(
             input_ids=input_ids,
             attention_mask=attention_mask,
@@ -70,7 +66,14 @@ class Generator:
         return response.strip()
 
 
-def format_answer_with_citations(answer, retrieved_chunks):
-    sources = sorted(set(c["title"] for c in retrieved_chunks))
+def format_answer_with_citations(answer, retrieved_chunks, min_absolute_score=0.35, relative_margin=0.65):
+    if not retrieved_chunks:
+        return answer
+    top_score = retrieved_chunks[0].get("score", 1.0)
+    dynamic_threshold = max(min_absolute_score, relative_margin * top_score)
+    relevant = [c for c in retrieved_chunks if c.get("score", 1.0) >= dynamic_threshold]
+    if not relevant:
+        relevant = retrieved_chunks[:1]
+    sources = sorted(set(c["title"] for c in relevant))
     citation_block = "\n\nSources:\n" + "\n".join(f"- {s}" for s in sources)
     return answer + citation_block
