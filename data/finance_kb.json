@@ -160,5 +160,155 @@
     "category": "Budgeting",
     "title": "What is the 50/30/20 budgeting rule?",
     "content": "The 50/30/20 rule is a simple budgeting guideline suggesting that roughly 50 percent of after-tax income goes to needs such as housing, bills, and food, 30 percent to wants such as entertainment and eating out, and 20 percent to savings and debt repayment beyond minimum payments. It is a starting reference point rather than a strict rule, and the right split depends on individual circumstances such as location and income level."
+  },
+  {
+    "id": "gen001",
+    "category": "General Definitions",
+    "title": "What is a loan?",
+    "content": "A loan is money borrowed from a lender, such as a bank, building society, or credit union, which must be repaid over an agreed period, usually with interest added on top of the amount borrowed. Loans can be secured (backed by an asset such as a home, e.g. a mortgage) or unsecured (not backed by an asset, e.g. a personal loan), with secured loans generally offering lower interest rates because they carry less risk for the lender. Missing repayments can affect a person's credit score and, for secured loans, can risk the asset used as security."
+  },
+  {
+    "id": "gen002",
+    "category": "General Definitions",
+    "title": "What is APR?",
+    "content": "APR stands for Annual Percentage Rate, and it represents the total yearly cost of borrowing, including interest and most mandatory fees, expressed as a single percentage. It allows different loans, credit cards, or mortgages to be compared on a like-for-like basis, since a lower advertised interest rate can sometimes hide higher fees that make the true APR higher than a competing offer. Lenders in the UK are generally required to display a representative APR so borrowers can compare costs fairly."
+  },
+  {
+    "id": "gen003",
+    "category": "General Definitions",
+    "title": "What is an overdraft?",
+    "content": "An overdraft is an agreed facility allowing a current account holder to spend more money than is actually in their account, up to a set limit, effectively a short-term loan attached to a bank account. Arranged overdrafts (agreed in advance with the bank) typically charge lower interest than unarranged overdrafts (used without prior agreement or beyond an agreed limit), and unarranged use can also affect a credit score. Overdrafts are generally intended for short-term, occasional use rather than as an ongoing way to manage a budget shortfall."
+  },
+  {
+    "id": "gen004",
+    "category": "General Definitions",
+    "title": "What is a credit card and how does interest work on it?",
+    "content": "A credit card allows a person to borrow money up to an agreed limit to pay for goods and services, with the balance repaid in full or in part each month. If the balance is paid in full by the statement due date, no interest is usually charged; if only a partial payment is made, interest is charged on the remaining balance, and in many cases retroactively on the full amount from the date of purchase. Making only the minimum payment each month can result in a large amount of interest being paid over time and debt taking a long time to clear."
+  },
+  {
+    "id": "gen005",
+    "category": "General Definitions",
+    "title": "What is a current account?",
+    "content": "A current account is a bank account designed for everyday use, such as receiving wages, paying bills, and making regular purchases via debit card, direct debit, or standing order. It differs from a savings account, which is designed to hold money aside and often pays interest but is not usually meant for frequent transactions. Many current accounts offer an overdraft facility, and some charge a monthly fee in exchange for additional features such as travel insurance or cashback."
+  },
+  {
+    "id": "gen006",
+    "category": "General Definitions",
+    "title": "What is the difference between a direct debit and a standing order?",
+    "content": "A direct debit is an instruction allowing an organisation, such as an energy supplier, to collect variable or fixed amounts from a bank account on agreed dates, with the amount and timing controlled by the recipient (subject to the Direct Debit Guarantee for refunds if collected in error). A standing order is an instruction set up by the account holder telling their own bank to pay a fixed amount to another account on a set schedule, commonly used for rent or regular savings transfers, and it cannot be changed by the recipient."
+  },
+  {
+    "id": "hou001",
+    "category": "Housing",
+    "title": "What is a deposit and how much is typically needed to buy a home in the UK?",
+    "content": "A deposit is the upfront portion of a property's purchase price paid by the buyer, with the remainder covered by a mortgage. Deposit requirements vary by lender and mortgage product, but many mainstream mortgages require at least 5 to 10 percent of the property value, with larger deposits generally unlocking lower interest rates since they reduce the lender's risk. A larger deposit also means borrowing less overall, reducing total interest paid over the life of the mortgage."
+  },
+  {
+    "id": "hou002",
+    "category": "Housing",
+    "title": "What is mortgage Loan-to-Value (LTV)?",
+    "content": "Loan-to-Value, or LTV, is the size of a mortgage expressed as a percentage of the property's value. For example, borrowing 180,000 pounds on a home valued at 200,000 pounds gives an LTV of 90 percent. Lower LTV mortgages, reflecting a larger deposit or more home equity, generally come with better interest rates, since the lender is taking on less risk relative to the property's value."
+  },
+  {
+    "id": "ben001",
+    "category": "Benefits and support",
+    "title": "What is Universal Credit?",
+    "content": "Universal Credit is a UK government means-tested benefit that combines several previous benefits into a single monthly payment, intended to support people on a low income or who are out of work, including support toward housing costs, children, and childcare. Eligibility and the amount received depend on income, savings, household circumstances, and other factors, and having savings above a certain threshold can reduce or remove eligibility entirely. It is administered separately from pension and tax credit systems, though interactions between different forms of support can be complex."
+  },
+  {
+    "id": "ben002",
+    "category": "Benefits and support",
+    "title": "How can redundancy pay affect my finances?",
+    "content": "Statutory redundancy pay in the UK is based on age, length of service, and weekly pay, up to certain caps, and is paid to eligible employees who lose their job due to redundancy. Some employers offer enhanced redundancy pay above the statutory minimum. Redundancy pay up to a certain amount is generally not subject to Income Tax or National Insurance, though amounts above that threshold may be taxed, and it is generally sensible to build a financial buffer and review budgeting needs during a period without regular income."
+  },
+  {
+    "id": "deb003",
+    "category": "Debt",
+    "title": "What is debt consolidation?",
+    "content": "Debt consolidation means combining multiple debts, such as credit cards and loans, into a single new loan or repayment arrangement, ideally with a lower overall interest rate or a single simpler monthly payment. It can make repayments easier to manage, but consolidating does not reduce the amount owed and can sometimes cost more overall if the new arrangement runs for a longer period or carries fees, so the total cost should be compared carefully against existing debts before proceeding."
+  },
+  {
+    "id": "deb004",
+    "category": "Debt",
+    "title": "What are payday loans and why are they considered high-risk?",
+    "content": "Payday loans are short-term, typically small-value loans designed to be repaid quickly, often by the borrower's next payday, and historically carried very high interest rates compared with other forms of borrowing. UK regulation introduced a price cap on payday lending, limiting total cost, but they remain a high-cost form of borrowing generally considered a last resort, since missed repayments can lead to additional charges and further financial difficulty. Free debt advice services are generally recommended before taking out this type of loan."
+  },
+  {
+    "id": "deb005",
+    "category": "Debt",
+    "title": "What is an Individual Voluntary Arrangement (IVA)?",
+    "content": "An Individual Voluntary Arrangement, or IVA, is a formal agreement in England and Wales between a person in debt and their creditors to repay some or all of what is owed over a set period, usually five to six years, through a licensed insolvency practitioner. It can offer protection from further creditor action once agreed, but it is a formal insolvency procedure that affects credit rating for years and can have other consequences, such as restrictions on certain types of employment, so it is generally considered after exploring other debt options."
+  },
+  {
+    "id": "inv003",
+    "category": "Investing",
+    "title": "What is compound interest?",
+    "content": "Compound interest is interest calculated not only on the original amount saved or invested but also on interest already earned in previous periods, causing growth to accelerate over time compared with simple interest. The effect is more pronounced the longer money is left invested or saved, which is why starting to save or invest earlier, even with smaller amounts, can result in significantly more growth over a long time horizon than starting later with larger amounts."
+  },
+  {
+    "id": "inv004",
+    "category": "Investing",
+    "title": "What is a stocks and shares ISA?",
+    "content": "A stocks and shares ISA is a tax-efficient account that allows money to be invested in assets such as shares, bonds, and funds, with any growth or income generated inside the ISA free from UK Income Tax and Capital Gains Tax. Unlike a cash ISA, the value can go down as well as up, since it is exposed to investment market movements, so it is generally considered more suitable for money that will not be needed for several years, allowing time to ride out short-term market fluctuations."
+  },
+  {
+    "id": "inv005",
+    "category": "Investing",
+    "title": "What is cryptocurrency and what are the risks?",
+    "content": "Cryptocurrency refers to digital assets, such as Bitcoin, that use decentralised technology rather than a central bank or government to record and verify transactions. Cryptocurrency values can be highly volatile, and in the UK it is not covered by the Financial Services Compensation Scheme in the way that money in a regulated bank account is, meaning there is generally no equivalent protection if a platform fails or an investment loses value. Regulators have repeatedly warned that people should be prepared to lose all money invested in higher-risk cryptoassets."
+  },
+  {
+    "id": "tax002",
+    "category": "Tax",
+    "title": "What is Capital Gains Tax?",
+    "content": "Capital Gains Tax is a UK tax on the profit made when selling or disposing of an asset that has increased in value, such as shares outside an ISA or a second property, rather than a tax on the total amount received from the sale. There is an annual tax-free allowance below which gains are not taxed, and gains above that allowance are taxed at rates that depend on the type of asset and the individual's overall income tax band. Assets held within an ISA or pension are generally exempt from Capital Gains Tax."
+  },
+  {
+    "id": "tax003",
+    "category": "Tax",
+    "title": "What is National Insurance?",
+    "content": "National Insurance is a UK system of contributions paid by employees, employers, and self-employed people, which funds certain state benefits and the State Pension. The amount paid depends on earnings and employment status, and building up enough qualifying years of National Insurance contributions is generally necessary to receive the full State Pension amount at retirement. Gaps in a National Insurance record, for example from periods not working, can sometimes be filled through voluntary contributions."
+  },
+  {
+    "id": "pen008",
+    "category": "Pensions",
+    "title": "What is the State Pension?",
+    "content": "The State Pension is a regular payment from the UK government to people who have reached State Pension age and have enough qualifying years of National Insurance contributions, separate from any workplace or personal pension savings. The amount received depends on an individual's National Insurance record, and the State Pension age itself has been gradually increasing and differs depending on date of birth. It is generally intended as a foundation of retirement income rather than a sole source, particularly given that it is usually less than the income many people need in retirement."
+  },
+  {
+    "id": "pen009",
+    "category": "Pensions",
+    "title": "What is automatic enrolment into a workplace pension?",
+    "content": "Automatic enrolment is a UK requirement for employers to automatically enrol eligible employees into a workplace pension scheme and make contributions on their behalf, alongside contributions taken from the employee's pay, unless the employee actively chooses to opt out. Minimum total contribution levels are set by law, split between employer and employee, and opting out means losing the employer's contribution as well as the employee's own, which is generally considered a valuable part of overall pay and retirement saving."
+  },
+  {
+    "id": "ins002",
+    "category": "Insurance",
+    "title": "What is buildings and contents insurance?",
+    "content": "Buildings insurance covers the cost of repairing or rebuilding a property's structure, such as walls, roof, and fixed fittings, typically required by mortgage lenders as a condition of the loan. Contents insurance covers belongings inside the home, such as furniture and electronics, against risks like theft, fire, or water damage, and is generally optional but recommended, particularly for higher-value possessions. The two can be bought as separate policies or combined into a single buildings-and-contents policy."
+  },
+  {
+    "id": "sca002",
+    "category": "Scams",
+    "title": "What is 'authorised push payment' fraud?",
+    "content": "Authorised push payment fraud occurs when someone is tricked into knowingly transferring money to a fraudster, for example by being convinced they are paying a genuine supplier, a family member in urgent need, or a trusted organisation such as their bank, when in fact the payment goes to a scammer. Because the payment is technically authorised by the account holder, it can be harder to reverse than an unauthorised transaction, though UK reimbursement rules have strengthened protections for many victims of this type of fraud in certain circumstances. Verifying payment details independently, especially for unexpected or urgent requests, is a key precaution."
+  },
+  {
+    "id": "bud003",
+    "category": "Budgeting",
+    "title": "What is 'buy now, pay later' and what are the risks?",
+    "content": "Buy now, pay later services allow a purchase to be split into instalments, often interest-free if paid on schedule, typically offered at online checkouts as an alternative to a credit card. Risks include the ease of accumulating multiple simultaneous agreements across different retailers without a clear overall picture of total commitments, and missed payments can lead to fees and, depending on the provider and regulatory changes over time, can affect a person's credit record. Because the application process is often very quick, it can be easy to take on more short-term commitment than intended."
+  },
+  {
+    "id": "gen007",
+    "category": "General Definitions",
+    "title": "What is a joint account?",
+    "content": "A joint account is a bank account shared by two or more people, commonly used by couples or family members to manage shared expenses such as household bills. Each account holder is usually able to access and manage the full balance independently, and importantly, all holders are typically equally responsible for any overdraft or debt on the account, regardless of who made individual transactions, which is worth considering carefully before opening one."
+  },
+  {
+    "id": "gen008",
+    "category": "General Definitions",
+    "title": "What is a credit union?",
+    "content": "A credit union is a not-for-profit financial cooperative, owned and controlled by its members, that offers savings accounts and loans, often to people within a particular community, employer, or region. Credit unions can sometimes offer more accessible loans than mainstream lenders for people who might otherwise struggle to get credit elsewhere, and profits are generally returned to members as dividends rather than paid out to external shareholders. Like banks, UK credit unions are regulated and deposits are covered by the Financial Services Compensation Scheme up to the standard limit."
   }
 ]
