@@ -1,0 +1,140 @@
+question,ground_truth,generated_answer,safeguard_triggered,total_latency_sec,manual_grade
+What is a defined contribution pension?,"A pot of money built up from contributions and tax relief, with the final value depending on investment performance rather than a guaranteed amount.","A defined contribution pension is a type of personal savings plan where individuals contribute money towards building up a fund during their working years. This fund grows over time due to both contributions made by the individual and any employer contributions. Tax benefits such as tax relief are also applied to these contributions. The growth of this fund is entirely dependent on the performance of the investments within it, and any fees charged along the way reduce its overall value. Unlike a defined benefit pension, which guarantees a certain income upon retirement based on past salaries, a defined contribution pension offers flexibility in terms of how funds are accessed. Options include withdrawing all the accumulated funds as a lump sum, purchasing an annuity to receive a fixed monthly payment, converting to flexible drawdown allowing partial withdrawals as needed, or taking periodic small amounts over time.
+
+Sources:
+- What are my options when taking a defined contribution pension?
+- What is a defined benefit pension?
+- What is a defined contribution pension?",False,148.472,
+What is a defined benefit pension?,"A scheme that promises a specific retirement income based on salary and years of service, common in the public sector.","A defined benefit pension, also known as a final salary or career average scheme, guarantees a specific retirement income based on your salary and years of service. This type of pension is typically offered by employers in sectors like education, healthcare, and defense. The employer assumes the investment risk, while the employee receives a fixed income upon retirement.
+
+Sources:
+- What is Pension Wise?
+- What is a defined benefit pension?
+- What is a defined contribution pension?",False,67.758,
+At what age can I usually access my pension?,"Most people cannot access defined contribution pensions before age 55, rising to 57 from 2028.","You can typically access your pension after you reach the normal pension age specified by your employer's pension plan. This age varies and is often around 60 or 65, although it may be higher if there are changes due to the State Pension age adjustment. For those under 55, accessing your pension savings early can result in significant tax penalties unless you meet certain special circumstances like severe illness.
+
+Sources:
+- When can I normally access my pension?",False,70.54,
+What are my options for taking money from a defined contribution pension?,"Lump sum, annuity, flexible drawdown, or smaller lump sums over time, often combined; first 25% is usually tax-free.","Your options for taking money from a defined contribution pension include:
+
+1. Taking the entire pot as a single lump sum.
+2. Purchasing an annuity to receive a guaranteed income for life.
+3. Moving into flexible drawdown where you can withdraw funds as needed without reducing the overall balance.
+4. Taking smaller lump sums over time.
+
+Many people choose combinations of these methods. Typically, the first 25% of the pot can be withdrawn tax-free, followed by taxes on the remaining amount.
+
+Sources:
+- What are my options when taking a defined contribution pension?
+- What is a defined benefit pension?
+- What is a defined contribution pension?",False,83.246,
+What is pension tax relief?,The government tops up pension contributions to reflect that pensions are treated as pre-tax income.,"Pension tax relief is a mechanism where the government increases the amount of pension contributions you make, reflecting the fact that these contributions are considered pre-tax income. For a basic-rate taxpayer, this means their net contribution is boosted by the tax relief provided by the pension provider. Higher and additional-rate taxpayers might need to claim further relief through a tax return. Each year has an annual allowance limit, which determines how much can be contributed without losing out on full tax relief.
+
+Sources:
+- What is a defined benefit pension?
+- What is pension tax relief?",False,76.435,
+What is Pension Wise?,"A free, impartial government-backed guidance service for people 50+ with a defined contribution pension.","Pension Wise is a free, impartial guidance service offered by the UK government specifically designed for individuals aged 50 or older who have a defined contribution pension. This service provides guidance through various methods—online, telephone, or face-to-face—to help explain the different options available for managing one's pension funds. While Pension Wise offers detailed explanations of these options, it does not provide regulated financial advice that would involve making specific recommendations tailored to each person's unique circumstances.
+
+Sources:
+- What is Pension Wise?
+- What is a defined benefit pension?
+- What is a defined contribution pension?",False,80.29,
+Is it always a good idea to combine pension pots?,"Not always — some older pensions have valuable guarantees, and transferring defined benefit pensions above a threshold legally requires advice.","Combining pension pots can simplify management and potentially lower costs, but it's not universally beneficial. For some individuals, especially those who have valuable guarantees like guaranteed annuity rates included in their pensions, combining might lead to loss of these benefits. Additionally, transferring out of a defined benefit pension is generally discouraged due to regulatory requirements and potential negative impacts on future earnings. Therefore, whether to combine pension pots should be carefully considered after consulting with a financial advisor to assess personal circumstances and goals.
+
+Sources:
+- Should I combine multiple pension pots?
+- What are my options when taking a defined contribution pension?",False,82.468,
+What is an ISA?,"A tax-efficient wrapper for savings or investments where interest, dividends, or gains are free of UK tax.","An ISA (Individual Savings Account) is a tax-efficient wrapper for savings or investments where any interest, dividends, or capital gains earned inside it are free of UK tax. It provides flexibility to invest in various types of accounts like cash ISAs, stocks and shares ISAs, and Lifetime ISAs depending on your needs.
+
+Sources:
+- What is a Lifetime ISA?
+- What is a stocks and shares ISA?
+- What is an ISA?",False,58.026,
+What is a Lifetime ISA?,"An ISA for 18-39 year olds saving for a first home or retirement, with a 25% government bonus, and a withdrawal charge for other uses.","A Lifetime ISA (LISA) is a savings vehicle specifically designed for individuals aged between 18 and 39. It offers two key features:
+
+1. **Annual Contribution Limit**: Savers can contribute up to £4,000 per year into their LISA.
+   
+2. **Government Bonus**: The government provides a 25% bonus on top of the initial contribution, making the total amount available for saving £5,000 (£4,000 contributed + £1,000 bonus).
+
+The primary purpose of a LISA is to allow young adults to build wealth for both retirement and potentially purchasing a first home. However, withdrawals for non-retirement purposes typically come with a government withdrawal charge, reducing the net amount received compared to what was initially saved.
+
+Sources:
+- What is a Lifetime ISA?
+- What is a stocks and shares ISA?
+- What is an ISA?",False,117.681,
+How much should I have in an emergency fund?,A common guideline is three to six months of essential living costs.,"I can't give personalised financial advice — that requires an FCA-regulated adviser who can assess your individual circumstances. What I can do is explain general guidance on this topic. For personalised recommendations, consider a free Pension Wise appointment (if pension-related) or a regulated financial adviser. Would you like me to explain the general options instead?",True,0.02,
+What should I do if I'm struggling with debt repayments?,"Contact lenders early, seek free debt advice, and address priority debts such as rent and council tax first.","I can't give personalised financial advice — that requires an FCA-regulated adviser who can assess your individual circumstances. What I can do is explain general guidance on this topic. For personalised recommendations, consider a free Pension Wise appointment (if pension-related) or a regulated financial adviser. Would you like me to explain the general options instead?",True,0.018,
+What's the difference between priority and non-priority debts?,"Priority debts (e.g. rent, council tax) carry serious consequences like losing your home if unpaid; non-priority debts (e.g. credit cards) carry less severe immediate consequences.","Priority debts are those that can result in significant negative consequences if not paid, including losing your home, having utilities disconnected, or facing legal action. Examples of priority debts include mortgage or rent arrears, council tax, energy bills, and court fines. These debts have higher urgency and require prompt attention to avoid severe penalties.
+
+Non-priority debts, on the other hand, typically carry less immediate consequence but still impact your credit score and may involve collection activities if not managed properly. Credit cards, personal loans, and overdrafts fall under this category. While these debts don't cause as much direct harm, ignoring them can still negatively affect your finances in the long run.
+
+Sources:
+- What is the difference between priority and non-priority debts?
+- What should I do if I am struggling with debt repayments?",False,104.853,
+What's the difference between a fixed and variable rate mortgage?,"A fixed rate stays the same for an agreed period; a variable rate can move up or down, often with the base rate.","The main difference between a fixed-rate mortgage and a variable-rate mortgage lies in how the interest rate and monthly repayments change over time:
+
+- **Fixed-Rate Mortgage**: The interest rate remains constant throughout the entire term of the loan, typically ranging from 2 to 5 years. This means that your monthly payment stays the same during this period, providing predictable financial planning.
+
+- **Variable-Rate Mortgage**: The interest rate fluctuates based on market conditions, such as changes in the Bank of England base rate. Your monthly payment can increase or decrease depending on these fluctuations, making it harder to budget long-term.
+
+In summary, a fixed-rate mortgage offers stability and affordability, while a variable-rate mortgage provides flexibility but comes with potential increases in costs.
+
+Sources:
+- What happens at the end of a mortgage deal?
+- What is mortgage Loan-to-Value (LTV)?
+- What is the difference between a fixed-rate and variable-rate mortgage?",False,111.802,
+What happens when my mortgage deal ends?,"Borrowers are usually moved to the lender's standard variable rate unless they arrange a new deal, which is often more expensive.","When your mortgage deal ends, you will likely be moved onto your lender's standard variable rate unless you have arranged a new deal. This means that your interest rate and monthly repayment could increase compared to the original fixed or discounted rate. It is advisable to review your options several months before the current deal ends, considering remortgaging with a new lender or negotiating a new product transfer from the existing one to avoid this potential change.
+
+Sources:
+- What happens at the end of a mortgage deal?",False,75.029,
+How do I build a household budget?,"List income and essential outgoings, then discretionary spending, and compare totals to find a surplus or shortfall.","To build a household budget, start by listing all your sources of income. Then, categorize all your expenses into essentials (housing, utilities, food, debt repayments) and discretionary spending. Compare your total income with your total outgoings to see if you have a surplus or shortfall. Use bank statements from several months to identify any overspending on items like subscriptions or occasional purchases. This method helps ensure you're managing your finances effectively and staying within your means.
+
+Sources:
+- How do I build a household budget?
+- What is the 50/30/20 budgeting rule?",False,80.097,
+What is the difference between financial guidance and financial advice?,"Guidance gives general information without recommending a specific product; regulated advice assesses personal circumstances and recommends a specific action, and is FCA-regulated.","Financial guidance and financial advice both provide information about finances, but they differ in their approach and level of regulation:
+
+1. **Financial Guidance**:
+   - Provides general information and explanations.
+   - Does not recommend specific products or courses of action.
+   - Often includes services like Pension Wise and MoneyHelper.
+   - Is typically free, though some may charge small fees for ongoing support.
+   - Focuses on helping individuals understand their options and make informed decisions.
+
+2. **Financial Advice**:
+   - Involves a qualified professional who assesses personal circumstances.
+   - Recommends specific products or actions based on the individual’s needs.
+   - Requires registration with the Financial Conduct Authority (FCA).
+   - Carries a fee, which can vary depending on the complexity of the advice.
+   - Comes with additional consumer protections, including access to the Financial Ombudsman Service and the Financial Services Compensation Scheme.
+
+In summary, while financial guidance offers broad, non-specific advice that helps users understand
+
+Sources:
+- What is the difference between financial guidance and financial advice?
+- Why does it matter whether advice is regulated?",False,143.992,
+How can I improve my credit score?,"Register on the electoral roll, pay bills on time, keep credit utilisation low, and avoid multiple credit applications in a short period.","To improve your credit score over time, consider these common strategies:
+
+1. **Register on the Electoral Roll**: This helps establish residency and can positively impact your creditworthiness.
+2. **Pay Bills and Credit Commitments on Time**: Late payments can negatively affect your score.
+3. **Keep Credit Utilization Low Relative to Your Limits**: High balances compared to available credit can harm your score.
+4. **Avoid Multiple Credit Applications in a Short Period**: Frequent applications can also have negative impacts.
+5. **Check Your Credit Report Regularly for Errors**: Mistakes can skew your score, so staying informed about inaccuracies is important.
+
+Building a good track record of responsible borrowing and repayment generally leads to higher credit scores.
+
+Sources:
+- How can I improve my credit score?
+- What is a credit score and how is it used?",False,108.846,
+What's the difference between saving and investing?,"Saving is low-risk with modest, stable returns; investing carries more risk and potential for both higher growth and losses.","Saving involves putting money into accounts like savings accounts where the value doesn't change much but you get small returns that don't keep up with inflation. Investing, on the other hand, puts your money into things like stocks, bonds, or mutual funds which can go up or down in value, potentially giving you bigger returns but also carrying more risks like losing money.
+
+Sources:
+- What is the difference between saving and investing?",False,64.252,
+How can I recognise a pension scam?,"Warning signs include unsolicited contact, guaranteed high returns, pressure to act quickly, and requests to transfer a pension outside normal access rules.","Unsolicited contact offering guaranteed high returns, pressure to act quickly or keep the offer secret, unusual or unregulated investments, and requests to transfer a pension to release funds early outside the normal access rules are common warning signs of pension scams. Additionally, checking if a firm is authorised through the Financial Services Register and being cautious about approaches that discourage seeking independent guidance are recommended precautions.
+
+Sources:
+- How can I recognise a pension or investment scam?",False,69.186,
+What is the 50/30/20 budgeting rule?,"A guideline suggesting roughly 50% of income to needs, 30% to wants, and 20% to savings and debt repayment.","The 50/30/20 budgeting rule suggests allocating approximately 50% of your after-tax income towards necessities like housing, bills, and groceries, 30% towards wants like entertainment and dining out, and 20% towards savings and paying down debts above minimums. This is meant as a flexible guideline rather than a rigid rule, adjusting based on personal circumstances such as location and income level.
+
+Sources:
+- What is the 50/30/20 budgeting rule?",False,80.968,

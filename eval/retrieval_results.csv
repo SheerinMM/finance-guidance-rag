@@ -1,0 +1,21 @@
+question,expected_doc_id,retrieved_doc_ids,retrieval_hit,top_score,retrieval_latency_sec
+What is a defined contribution pension?,pen001,pen001;pen002;pen004,True,0.88,0.041
+What is a defined benefit pension?,pen002,pen002;pen001;pen006,True,0.831,0.025
+At what age can I usually access my pension?,pen003,pen003;pen008;pen006,True,0.779,0.027
+What are my options for taking money from a defined contribution pension?,pen004,pen004;pen001;pen002,True,0.694,0.028
+What is pension tax relief?,pen005,pen005;pen002;pen006,True,0.833,0.025
+What is Pension Wise?,pen006,pen006;pen002;pen001,True,0.747,0.023
+Is it always a good idea to combine pension pots?,pen007,pen007;pen004;pen002,True,0.757,0.027
+What is an ISA?,sav001,inv004;sav001;sav002,True,0.649,0.025
+What is a Lifetime ISA?,sav002,sav002;sav001;inv004,True,0.694,0.024
+How much should I have in an emergency fund?,sav003,sav003;bud002;pen004,True,0.7,0.025
+What should I do if I'm struggling with debt repayments?,deb001,deb001;deb003;deb002,True,0.489,0.029
+What's the difference between priority and non-priority debts?,deb002,deb002;deb001;deb003,True,0.832,0.028
+What's the difference between a fixed and variable rate mortgage?,mor001,mor001;mor002;hou002,True,0.824,0.028
+What happens when my mortgage deal ends?,mor002,mor002;mor001;bud003,True,0.686,0.026
+How do I build a household budget?,bud001,bud001;bud002;sav003,True,0.587,0.025
+What is the difference between financial guidance and financial advice?,adv001,adv001;adv002;pen006,True,0.783,0.026
+How can I improve my credit score?,cre002,cre002;cre001;ben001,True,0.688,0.037
+What's the difference between saving and investing?,inv002,inv002;inf001;sav001,True,0.806,0.046
+How can I recognise a pension scam?,scam001,scam001;pen006;pen002,True,0.747,0.027
+What is the 50/30/20 budgeting rule?,bud002,bud002;bud001;mor002,True,0.775,0.028
